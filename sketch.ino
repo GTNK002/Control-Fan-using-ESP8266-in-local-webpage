@@ -76,6 +76,7 @@ void FanSpeed2(){
 void FanSpeed3(){
   Fan = "Speed3";
   digitalWrite(D8, HIGH);
+  digitalWrite(D7, HIGH);
   delay(500);
   digitalWrite(D6, LOW);
   digitalWrite(D7, LOW);
